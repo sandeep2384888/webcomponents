@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p {color: orange;}
+    </style>
+    <title>Hello Shadow DOM </title>
+</head>
+<body>
+    <h1>What is Shadow DOM</h1>
+    <p>The Shadow DOM is a DOM inside a DOM</p>
+ 
+    <div>
+      <style>p {color: blue;}</style>
+      <h1>Shadow DOM Example</h1>
+      <p>This is not Shadow DOM</p>
+    </div>
+ 
+    <div id="shadowhost"></div> 
+    <script src="shadowDemo.js"></script>
+</body>
+</html>
